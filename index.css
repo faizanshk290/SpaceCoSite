@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav
+{
+    background-color: #282828;
+    color: whitesmoke;
+}
+
+ul
+{
+    margin: 0;
+    padding: 25px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+h1
+{
+    font-weight: 300;
+    padding: 25px 20px;
+}
+
+.title
+{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.pin-icon
+{
+    width: 35px;
+}
+
+.align-right
+{
+    width: 30px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.item
+{
+    position: relative;
+}
+
+.item-img
+{
+    width: 100%;
+}
+
+.caption
+{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.img-banner
+{
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    background-color: #cd6858;
+    color: whitesmoke;
+}
+
+#book-btn
+{
+    font-size: larger;
+    align-self: center;
+    padding: 5px 20px;
+    border: none;
+    background-color: #cd6858;
+    color: whitesmoke;
+}
+
+.chat-box
+{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    background-color: #cd6858;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #999;
+}
+
+.chat-box-img
+{
+    width: 50%;
+    margin: auto;
+}
